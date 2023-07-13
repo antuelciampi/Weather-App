@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (width > 300px) {
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
